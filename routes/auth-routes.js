@@ -9,17 +9,17 @@ const express = require('express');
  *     Users:
  *       type: object
  *       required:
- *         - username
+ *         - email
  *         - password
  *       properties:
- *         username:
- *           type: string
- *           description: Username input for user
+ *         email:
+ *           type: email
+ *           description: email input for user
  *         password:
  *           type: string
  *           description: Password input for user
  *       example:
- *         username: admin
+ *         email: admin@gmail.com
  *         password: admin
  */
 
