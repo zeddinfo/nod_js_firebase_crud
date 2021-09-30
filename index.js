@@ -35,7 +35,7 @@ const options = {
         },
         servers: [
             {
-                url: "https://serene-earth-55262.herokuapp.com/"
+                url: "https://serene-earth-55262.herokuapp.com/api"
             }
         ],
     },

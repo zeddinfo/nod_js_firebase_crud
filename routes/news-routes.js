@@ -44,12 +44,6 @@ const router = express.Router();
  *   get:
  *     summary: Get All Data
  *     tags: [News]
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             $ref: '#/components/schemas/News'
  *     responses:
  *       200:
  *         description: success get news data
